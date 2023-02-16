@@ -1,0 +1,12 @@
+body {
+    font-size:18px;
+}
+
+section img#my-image {
+    background-color:black;
+    box-shadow: 0 2px 1px
+}
+
+header h1.red{
+    color:red
+}
