@@ -1,12 +1,56 @@
-body {
-    font-size:18px;
+body{
+    font-size: 18px;
 }
 
 section img#my-image {
     background-color:black;
-    box-shadow: 0 2px 1px
+    box-shadow: 0 2px 1px;
 }
 
 header h1.red{
-    color:red
+    color:red;
+}
+
+header, footer{
+    background-color:aquamarine;
+}
+
+section ul{
+    list-style: square;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+header, main, section, footer{
+    padding: 20px;
+}
+
+.list {
+    background-color:blueviolet;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.color {
+    background-color:rgb(79, 137, 208);
+    border: 5px solid #5a475b;
+}
+
+.color:hover{
+    background-color:lawngreen;
+}
+
+.box {
+    background-color:rgb(249, 60, 67);
+    border: 5px solid #5a475b;
+}
+
+.box:hover{
+    background-color:rgb(247, 243, 23);
 }
