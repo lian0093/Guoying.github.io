@@ -29,10 +29,6 @@ header, main, section, footer{
     padding: 20px;
 }
 
-.list {
-    background-color:blueviolet;
-}
-
 a:link {
     text-decoration: none;
 }
@@ -53,4 +49,8 @@ a:link {
 
 .box:hover{
     background-color:rgb(247, 243, 23);
+}
+
+.list :nth-child(odd) {
+    background-color:blueviolet;
 }
