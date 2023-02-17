@@ -2,6 +2,11 @@ body{
     font-size: 18px;
 }
 
+section img#my-image {
+    background-color:rgb(245, 87, 87);
+    box-shadow: 0 2px 1px;
+}
+
 header h1.red{
     color:red;
 }
