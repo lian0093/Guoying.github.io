@@ -3,7 +3,7 @@ body{
 }
 
 section img#my-image {
-    background-color:rgb(245, 87, 87);
+    background-color:black;
     box-shadow: 0 2px 1px;
 }
 
