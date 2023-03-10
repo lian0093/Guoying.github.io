@@ -104,7 +104,18 @@ input[type=text] {
     padding: 60px;
 }
 
+button {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    background-color: #D4E9E7;
+}
+
 /*Set the footer to the bottom right corner of the site*/
 footer {
     text-align: right;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 30px; 
 }
