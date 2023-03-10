@@ -29,12 +29,29 @@ header h1 {
 /*Set the link's location and settings*/
 .display li {
     display: inline;
-    margin-right: 110px;
+    margin-right: 45px;
+    margin-left: 45px;
     margin-top: 50px;
     margin-bottom: 100px;
-    margin-left: 120px;
     text-transform: uppercase;
     font-size: 1.5rem;
+}
+
+.home {
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.story {
+    padding-left: 130px;
+    padding-right: 130px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.contact {
+    padding-left: 45px;
+    padding-right: 45px;
 }
 
 a:link {
@@ -89,5 +106,5 @@ input[type=text] {
 
 /*Set the footer to the bottom right corner of the site*/
 footer {
-    float: right;
+    text-align: right;
 }
