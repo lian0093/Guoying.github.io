@@ -1,0 +1,93 @@
+/*Add a color background to the web page and add a centered color background to the content over the background*/
+body {
+    background-color: #AAD4CF;
+    margin-top: -190px;
+}
+
+.wrapper {
+    background-color: #D4E9E7; 
+    width: 1025px;
+    margin: auto; 
+}
+
+/*Set a picture background for the title and fix the center position of the title*/
+.topic {
+    width: 1025px;
+    height: 345px;
+    background-image: url("../images/lone-starfish-wide.jpg");
+}
+
+header h1 {
+    color: white;
+    padding: 190px;
+    margin: 190px;
+    white-space: nowrap;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+/*Set the link's location and settings*/
+.display li {
+    display: inline;
+    margin-right: 110px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 120px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+/*Set the image to the left and surrounded by text*/
+img {
+    width: 200px;
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+
+
+.fast {
+    padding-left: 10px;
+}
+
+.life {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.learn {
+    padding-left: 10px;
+}
+
+/*Create a box for the form and set the correct form box*/
+.form {
+    width: 990px;
+    border: 3px solid black;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+input[type=text] {
+    width: 97%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+#music {
+    width: 86%;
+    padding: 60px;
+}
+
+/*Set the footer to the bottom right corner of the site*/
+footer {
+    float: right;
+}

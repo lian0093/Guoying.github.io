@@ -8,8 +8,13 @@
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <div class="wrapper">
+    <!--add the lone-starfish-wide to the header background and Put the header in the center position-->
+    <header class="topic">
         <h1>Lone Starfish</h1>
+    </header>
+    <!--Arrange links in a row-->
+    <div class="display">
         <nav>
             <ul>
                 <li><a href="Home.html">Home</a></li>
@@ -17,15 +22,16 @@
                 <li><a href="Contact.html">Contact</a></li>
             </ul>
         </nav>
-    </header>
-    <section>
+    </div>
+    <section class="life">
+        <!--text wrapping around lone-starfish-->
         <h2>Life of a Starfish</h2>
-        <div>
-            <img src="image/lone-starfish.jpg" alt="starfish">
+        <div class="float">
+            <img src="images/lone-starfish.jpg" alt="starfish">
             <p>Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper catalufa silver driftfish, kaluga lungfish boga greeneye, "french angelfish peamouth halfbeak batfish Australian prowfish mouthbrooder." Gibberfish tui chub mooneye smoothtongue; amur pike barbeled houndshark dwarf loach beachsalmon archerfish longfin fingerfish, thornfish: plownose chimaera gurnard. Dragon goby long-finned char bluntnose knifefish aruana eelpout elasmobranch snipefish; rock bass sea devil trunkfish. Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra. Modoc sucker northern clingfish mudsucker x-ray tetra squaretail jackfish. Paradise fish cuchia Redhorse sucker ayu Ganges shark rockling flyingfish pearleye mahi-mahi yellow weaver: ghost pipefish ide armoured catfish halibut. Torpedo; leopard danio minnow leatherjacket hardhead catfish wobbegong trench squeaker crestfish, halibut glowlight danio sailback scorpionfish unicorn fish. Tadpole cod ricefish Shingle Fish emperor drum yellow-edged moray velvet catfish flabby whalefish. Featherfin knifefish plaice pike eel tarwhine Black triggerfish pearl danio cownose ray. Merluccid hake, platy peamouth humuhumunukunukuapua'a barred danio. Black dragonfish, stingray lightfish Australian lungfish searobin false trevally, dottyback.</p>
         </div>
     </section>
-    <section>
+    <section class="fast">
         <h3>Facts About Starfish</h3>
         <ul>
             <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. </li>
@@ -35,24 +41,29 @@
         </ul>
     </section>
     <section>
-        <h3>Contact to learn more</h3>
-        <form action="More.html">
-            <label for="Name">Your Name</label><br>
-            <input type="text" id="Name"><br>            
-            <label for="Email">Your Email</label><br>
-            <input type="text" id="Email"><br>            
-            <label for="Message">Your Message</label><br>
-            <input type="text" id="Message"><br>
-            <h4>Would you like to visit the starfish?</h4>
-            <label for="Yes">Yes</label>
-            <input type="radio" id="Yes" value="Yes">
-            <label for="No">No</label>
-            <input type="radio" id="No" value="No">
-            <label for="Maybe">Maybe</label>
-            <input type="radio" id="Maybe" value="Maybe"><br>
-            <input type="submit" value="SEND"><br>
+        <!--create a box to wrap around the form-->
+        <h3 class="learn">Contact to learn more</h3>
+        <form class="form" action="More.html">
+            <label for="Hobby">Your Hobby</label><br>
+            <input type="text" id="Hobby"><br>            
+            <label for="food">Your favorite food</label><br>
+            <input type="text" id="food"><br>            
+            <label for="music">Your favorite music</label><br>
+            <input type="text" id="music"><br>
+            <h4>What's your favorite pet?</h4>
+            <label for="dog">Dog</label>
+            <input type="radio" id="dog">
+            <label for="cat">Cat</label>
+            <input type="radio" id="cat">
+            <label for="other">Other Pet</label>
+            <input type="radio" id="other"><br>
+            <button type="submit">SEND</button><br>
         </form>
     </section>
-    <footer>&copy;Lone Starfish.</footer>
+    <!--place the footer in the bottom left corner of the page-->
+    <footer>
+        <p>&copy;Lone Starfish.</p>
+    </footer>
+    </div>
 </body>
 </html>
