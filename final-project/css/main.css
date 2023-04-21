@@ -1,0 +1,370 @@
+.welcome {
+    max-width: 1200px;
+}
+
+.wrapper  {
+    background-color: black;
+    padding: 10px;
+}
+
+ul {
+    text-align: center;
+    padding-right: 40px;
+    list-style: none;
+    line-height: 4;
+}
+
+.home {
+    color: black;
+    text-decoration: none;
+
+}
+
+.yellow{
+    background: #c78c06;
+    text-align: center;
+    list-style: none;
+   }
+
+.logo {
+    background-color: #c78c06;
+    padding-bottom: 50px;
+    padding-right: 61%;
+}
+
+.about {
+    color: #c78b07;
+    text-decoration: none;
+}
+
+.services {
+    color: #c78b07;
+    text-decoration: none;
+}
+
+.team {
+    color: #c78b07;
+    text-decoration: none;
+}
+
+.contact {
+    color: #c78b07;
+    text-decoration: none;
+}
+
+#search {
+    width: 88%;
+    padding: 7px
+}
+
+.magnifier {
+    background-color: black;
+    border-color: #c78b07;
+    padding: 7px;
+}
+
+.banner {
+    background-image: url("../images/main-banner.jpg");
+    background-size:100% 100%;
+    padding: 50px;
+    color: white;
+}
+
+.star {
+    background-color: #463d37;
+    background-color:rgba(0, 0, 0, 0.6);
+    
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.star p {
+    font-size: 0.2rem;
+}
+
+.usbutton {
+    background-color: #c78b07;
+    padding: 20px;
+}
+
+.second {
+    background-color: #ffe6ac;
+    padding: 10px;
+}
+
+.second img {
+    width: 450px;
+}
+
+.second h2 {
+    font-size: 2rem;
+}
+
+.second p {
+    font-size: 0.3rem;
+}
+
+/**/
+.our img {
+    width: 466px;
+}
+
+.our button {
+    padding: 20px;
+} 
+
+.our h3 {
+    font-size: 1.5rem;
+    font-weight: 1800;
+}
+
+.our p {
+    font-size: 0.2rem;
+}
+
+.digital {
+    background-color: #ffe6ac;
+}
+
+.digi {
+    padding: 10px;
+}
+
+
+
+.marketing {
+    background-color: #ffe6ac;
+}
+
+.mark {
+    padding: 10px;
+}
+
+.video {
+    background-color: #ffe6ac;
+}
+
+.vide {
+    padding: 10px;
+}
+
+.web {
+    background-color: #ffe6ac;
+}
+
+.we {
+    padding: 10px;
+}
+
+.print {
+    background-color: #ffe6ac;
+}
+
+.prin {
+    padding: 10px;
+}
+
+.vision {
+    background-image: url("../images/vision.jpg");
+    color: white;
+    background-size:100% 100%;
+    padding: 10px;
+}
+
+.vision p {
+    font-size: 0.2rem;
+}
+
+.vision button {
+    padding: 20px ;
+}
+
+.team img {
+    width: 466px;
+}
+
+
+.john {
+    background-color: #ffe6ac; 
+    color: black;
+}
+
+.bob {
+    background-color: #ffe6ac;
+    color: black;
+}
+
+.jo {
+    padding: 10px;
+}
+
+.bo {
+    padding: 10px;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+input[type=text] {
+    width: 97%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}    
+
+#message {
+    width: 86%;
+    height: 40px;
+    padding: 28px;
+}
+
+.send {
+    background-color: black;
+    color: #c78c06;
+}
+
+td, th {
+    border: 2px solid black;
+    padding: 10px;
+    width: 400px;
+}
+
+th {
+    background-color: #ffe6ac; 
+}
+
+footer {
+    background-color: black;
+    color: #c78c06;
+    padding: 10px;
+}
+
+@media screen and (min-width: 760px) {
+    .welcome {
+        margin: auto;
+    }
+
+    .banner {
+        background-image: url("../images/main-banner.jpg");
+        background-size:auto;
+        width: 1200px;
+        height: 780px;
+    }
+
+    .wrapper {
+        background-color:black;
+        width: 1200px;
+        height: 140px;
+        margin: auto;
+    }
+    
+    nav li {
+        display: inline;
+        text-decoration: none;
+    }
+    
+    .home {
+        background-color: #c78b07;
+        color: black;
+        text-decoration: none;
+        box-sizing: 110px;
+    }
+    
+    .about {
+        color: #c78b07;
+        text-decoration: none;
+    }
+    
+    .services {
+        color: #c78b07;
+        text-decoration: none;
+    }
+    
+    .team {
+        color: #c78b07;
+        text-decoration: none;
+    }
+    
+    .contact {
+        color: #c78b07;
+        text-decoration: none;
+    }
+
+    .second img {
+        float: left;
+    }
+   
+    .digital {
+        background-color: #ffe6ac;
+        grid-area: di;
+        width: 450px;
+        height: 500px;
+    }
+    
+    .marketing {
+        background-color: #ffe6ac;
+        grid-area: mark;
+        width: 450px;
+        height: 500px;
+    }
+    
+    .video {
+        background-color: #ffe6ac;
+        grid-area: video;
+        width: 300px;
+        height: 500px;
+    }
+    
+    .web {
+        background-color: #ffe6ac;
+        grid-area: web;
+        width: 300px;
+        height: 500px;
+    }
+    
+    .print {
+        background-color: #ffe6ac;
+        grid-area: print;
+        width: 300px;
+        height: 500px;
+    }
+
+    .our {
+        text-align: center; 
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+        grid-template-areas:
+        "di di di mark mark mark"
+        "video video web web print print"
+    }
+
+    .second img {
+        width: 300px;
+        height: 150px;
+    }
+
+    .vision {
+        margin: 0;
+        background-size:100% 100%;
+        width: 1450px;
+        height: 300px;
+    } 
+
+    .team {
+        margin: auto;
+    }
+
+    .us {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .us .from:nth-child(from) {
+
+    }
+}   

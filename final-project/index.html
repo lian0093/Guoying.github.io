@@ -11,168 +11,191 @@
 </head>
 <body class="welcome">
     <div class="wrapper">
-        <img src="images/logo.png" alt="logo">
+        <div class = yellow>
+            <img class="logo" src="images/logo.png" alt="logo" >           
+            <li><a href="home.html" class="home">Home</a></li>
+        </div>
         <!--add a logo image , search bar and navigation in the header-->
-        <nav>
+        <nav class="navigation">
             <ul>
-                <li><a href="home.html" class="home">Home</a></li>
-                <li><a href="aboutus.html" class="about us">About Us</a></li>
+                <li><a href="aboutus.html" class="about">About Us</a></li>
                 <li><a href="services.html" class="services">Services</a></li>
                 <li><a href="team.html" class="team">Team</a></li>
                 <li><a href="contact.html" class="contact">Contact</a></li>
             </ul>
         </nav>
-        <form>
+        <form class="search">
             <input id="search" type="text" value="search">
-            <button type="submit">
-                <img src="images/search-icon-png-1.png" alt="search-icon">
+            <button class="magnifier" type="submit">
+                <i class="fa-solid fa-magnifying-glass" style="color: #ffe6ac;"></i>
             </button>
         </form>
     </div>
     <!--Add a photo as a background image, and a Contact's button.-->
-    <section>
-        <img src="images/main-banner.jpg" alt="main banner"> 
-        <h1>Welcome to Three Star Media</h1>
+    <section class="banner">
+        <div class="star">
+            <h1>Welcome to Three Star Media</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis ut alias cumque quod tempora, nobis possimus doloribus voluptas consectetur non maiores, ipsa adipisci aliquid blanditiis corporis molestiae, autem eaque ducimus.
         </p>
-        <button type="submit">
+        <button class="usbutton" type="submit">
             Connect with Us 
-            <i class="fa-solid fa-caret-right"></i> 
+            <i class="fa-solid fa-caret-right fa-xl" style="color: #000000;"></i>
         </button>
+        </div>
     </section>
     <!--Image placed to the left of the text-->
-    <main>
+    <main class="second">
         <img src="images/about-us.jpg" alt="about us">
         <h2>About Us</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum modi quam dicta autem odit alias consequuntur earum maxime et, aliquam adipisci unde mollitia voluptatem distinctio provident pariatur eaque ipsam quia.
         </p>
-        <p>Officia explicabo, modi eveniet, cumque suscipit nisi numquam ab itaque id ad, ullam temporibus? Rem fugiat corrupti, ratione perferendis earum consectetur eveniet voluptatum eum non accusantium modi minus, vitae doloremque?
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum modi quam dicta autem odit alias consequuntur earum maxime et, aliquam adipisci unde mollitia voluptatem distinctio provident pariatur eaque ipsam quia.
         </p>
     </main>
     <!--Use Grid Layout to arrange the order of photo text buttons-->
     <section>
         <h2>Our Services</h2>
-        <div class="digital">
-            <img src="images/digital.jpg" alt="digital">
-            <h3>Digital Transformation</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam minima, tempora consequuntur, eos dolorem amet ab mollitia repudiandae itaque ullam odit iure quae voluptatem, totam vitae neque quibusdam minus magni!
-            </p>
-            <button type="submit">
-                Digital Plans
-                <i class="fa-solid fa-caret-right"></i> 
-            </button>
+        <div class="our">
+            <div class="digital">
+                <img src="images/digital.jpg" alt="digital">
+                <div class="digi">
+                    <h3>Digital Transformation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam minima, tempora consequuntur, eos dolorem amet ab mollitia repudiandae itaque ullam odit iure quae voluptatem, totam vitae neque quibusdam minus magni!
+                </p>
+                <button class="black" type="submit">
+                    Digital Plans
+                    <i class="fa-solid fa-caret-right fa-xl" style="color: #ffffff;"></i> 
+                </button>
+                </div>
+            </div>
+            <div class="marketing">
+                <img src="images/marketing.jpg" alt="marketing">
+                <div class="mark">
+                    <h3>Marketing</h3>
+                <p>Illo nulla optio, ducimus reprehenderit qui est magnam assumenda officia perferendis nesciunt quas laudantium neque eveniet quasi mollitia voluptatem excepturi nam veniam ut in placeat tenetur explicabo maiores vitae? Facere!
+                </p>
+                <button class="black" type="submit">
+                    Marketing Plans 
+                    <i class="fa-solid fa-caret-right fa-xl" style="color: #ffffff;"></i>
+                </button>
+                </div>
+            </div>
+            <div class="video">
+                <img src="images/video.jpg" alt="video">
+                <div class="vide">
+                    <h3>Video Production</h3>
+                <p>Illo nulla optio, ducimus reprehenderit qui est magnam assumenda officia perferendis nesciunt quas laudantium neque eveniet quasi mollitia voluptatem excepturi nam veniam ut in placeat tenetur explicabo maiores vitae? Facere!
+                </p>
+                <button class="black" type="submit">
+                    Video Plans 
+                    <i class="fa-solid fa-caret-right fa-xl" style="color: #ffffff;"></i>
+                </button>
+                </div>
+            </div>
+            <div class="web">
+                <img src="images/web.jpg" alt="web">
+                <div class="we">
+                    <h3>Web Development</h3>
+                <p>Illo nulla optio, ducimus reprehenderit qui est magnam assumenda officia perferendis nesciunt quas laudantium neque eveniet quasi mollitia voluptatem excepturi nam veniam ut in placeat tenetur explicabo maiores vitae? Facere!
+                </p>
+                <button class="black" type="submit">
+                    Web Plans 
+                    <i class="fa-solid fa-caret-right fa-xl" style="color: #ffffff;"></i>
+                </button>
+                </div>
+            </div>
+            <div class="print">
+                <img src="images/print.jpg" alt="print">
+                <div class="prin">
+                    <h3>Print</h3>
+                <p>Illo nulla optio, ducimus reprehenderit qui est magnam assumenda officia perferendis nesciunt quas laudantium neque eveniet quasi mollitia voluptatem excepturi nam veniam ut in placeat tenetur explicabo maiores vitae? Facere!
+                </p>
+                <button class="black" type="submit">
+                    Print Plans 
+                    <i class="fa-solid fa-caret-right fa-xl" style="color: #ffffff;"></i>
+                </button>
+                </div>
         </div>
-        <div class="marketing">
-            <img src="images/marketing.jpg" alt="marketing">
-            <h3>Marketing</h3>
-            <p>Illo nulla optio, ducimus reprehenderit qui est magnam assumenda officia perferendis nesciunt quas laudantium neque eveniet quasi mollitia voluptatem excepturi nam veniam ut in placeat tenetur explicabo maiores vitae? Facere!
-            </p>
-            <button type="submit">
-                Marketing Plans 
-                <i class="fa-solid fa-caret-right"></i>
-            </button>
-        </div>
-        <div class="video">
-            <img src="images/video.jpg" alt="video">
-            <h3>Video Production</h3>
-            <p>Illo nulla optio, ducimus reprehenderit qui est magnam assumenda officia perferendis nesciunt quas laudantium neque eveniet quasi mollitia voluptatem excepturi nam veniam ut in placeat tenetur explicabo maiores vitae? Facere!
-            </p>
-            <button type="submit">
-                Video Plans 
-                <i class="fa-solid fa-caret-right"></i> 
-            </button>
-        </div>
-        <div class="web">
-            <img src="images/web.jpg" alt="web">
-            <h3>Web Development</h3>
-            <p>Illo nulla optio, ducimus reprehenderit qui est magnam assumenda officia perferendis nesciunt quas laudantium neque eveniet quasi mollitia voluptatem excepturi nam veniam ut in placeat tenetur explicabo maiores vitae? Facere!
-            </p>
-            <button type="submit">
-                Web Plans 
-                <i class="fa-solid fa-caret-right"></i>
-            </button>
-        </div>
-        <div class="print">
-            <img src="images/print.jpg" alt="print">
-            <h3>Print</h3>
-            <p>Illo nulla optio, ducimus reprehenderit qui est magnam assumenda officia perferendis nesciunt quas laudantium neque eveniet quasi mollitia voluptatem excepturi nam veniam ut in placeat tenetur explicabo maiores vitae? Facere!
-            </p>
-            <button type="submit">
-                Print Plans 
-                <i class="fa-solid fa-caret-right"></i>
-            </button>
-        </div>
+    </section>
+    <section>
         <!--Add a picture as a background, plus a button.-->
-        <div class="our vision">
-            <img src="images/vision.jpg" alt="vision">
+        <div class="vision">
             <h3>Our Vision</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore alias magnam necessitatibus perferendis ipsa esse sequi. Consectetur, error eveniet tempore quas nesciunt iusto sit, blanditiis nam quos doloremque veniam ipsum!
             </p>
-            <button type="submit">
+            <button class="black" type="submit">
                 Learn More 
-                <i class="fa-solid fa-caret-right"></i> 
+                <i class="fa-solid fa-caret-right fa-xl" style="color: #ffffff;"></i>
             </button>
         </div>
     </section>
     <!--Place Bob's photo in the bottom right corner and John's photo in the top left corner-->
     <section>
         <h2>Our Team</h2>
-        <div class="john">
-            <img src="images/john.jpg" alt="john">
-            <h3>John Deo</h3>
-            <h4>CEO and Co-owner</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia perspiciatis nemo molestiae voluptatum blanditiis labore consectetur tenetur quisquam deserunt ad aut, neque accusamus recusandae omnis natus. Repudiandae animi tempora ea!
-            </p>
-        </div>
-        <div class="bob">
-            <img src="images/bob.jpg" alt="bob">
-            <h3>Bob Rite</h3>
-            <h4>CFO and Co-owner</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, quibusdam sint sequi sit iure nesciunt non dolore quae officiis ab reiciendis velit quis animi ipsam cupiditate a laborum! Fuga, tempore.
-            </p>
+        <div class="team">
+            <div class="john">
+                <img src="images/john.jpg" alt="john">
+                <div class="jo">
+                    <h3>John Deo</h3>
+                <h4>CEO and Co-owner</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia perspiciatis nemo molestiae voluptatum blanditiis labore consectetur tenetur quisquam deserunt ad aut, neque accusamus recusandae omnis natus. Repudiandae animi tempora ea!
+                </p>
+                </div>
+            </div>
+            <div class="bob">
+                <img src="images/bob.jpg" alt="bob">
+                <div class="bo">
+                    <h3>Bob Rite</h3>
+                <h4>CFO and Co-owner</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, quibusdam sint sequi sit iure nesciunt non dolore quae officiis ab reiciendis velit quis animi ipsam cupiditate a laborum! Fuga, tempore.
+                </p>
+                </div>
+            </div>
         </div>
     </section>
     <!--Add a form, a table and a Google map-->
     <section>
         <h2>Contact US</h2>
-        <div class="from">
-            <h3>Send us a messagr</h3>
-            <label for="full-name">Full Name</label><br>
-            <input type="text" id="full-name"><br>
-            <label for="email">Eamil</label><br>
-            <input type="text" id="email"><br>
-            <label for="message">Message</label><br>
-            <input type="text" id="message"><br>
-            <button type="submit">
-                Send
-            </button>
-        </div>
-        <div>
-            <h3>Location</h3>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13052.581812223527!2d-75.7599554175187!3d45.34775618698525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1680949468786!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div>
-            <h3>Hours of operation</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Days</th>
-                        <th>Hours</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Monday-Fiday</td>
-                        <td>9 AM - 6 PM</td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td>Saturday-Sunday</td>
-                        <td>Closed</td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="us">
+            <div class="from">
+                <h3>Send us a messagr</h3>
+                <label for="full-name">Full Name</label><br>
+                <input type="text" id="full-name"><br>
+                <label for="email">Eamil</label><br>
+                <input type="text" id="email"><br>
+                <label for="message">Message</label><br>
+                <input type="text" id="message"><br>
+                <button class="send" type="submit">
+                    Send
+                </button>
+            </div>
+            <div>
+                <h3>Hours of operation</h3>
+                <table class="hour">
+                    <thead>
+                        <tr>
+                            <th>Days</th>
+                            <th>Hours</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday-Fiday</td>
+                            <td>9 AM - 6 PM</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>Saturday-Sunday</td>
+                            <td>Closed</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <h3>Location</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13052.581812223527!2d-75.7599554175187!3d45.34775618698525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1680949468786!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
     </section>
     <!--Add underlining to Unsplash-->
