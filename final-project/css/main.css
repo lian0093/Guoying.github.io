@@ -70,7 +70,7 @@ ul {
 /*Set image backgrounds, adjust font colors, and create a transparent black background for fonts and buttons.*/
 .banner {
     background-image: url("../images/main-banner.jpg");
-    background-size:100% 100%;
+    background-size: 100% 100%;
     padding: 50px;
     color: white;
 }
@@ -190,6 +190,9 @@ h1 {
     width: 466px;
 }
 
+.team h3 {
+    font-size: 1.5rem;
+}
 
 .john {
     background-color: #ffe6ac; 
@@ -256,11 +259,6 @@ footer {
     }
     
     /*Set the navigation layout, display.*/
-    .wrapper {
-        display: flex;
-        padding: 10px;
-    }
-
     .wrapper img {
         width: 80%;
         height: 80%;
@@ -275,14 +273,17 @@ footer {
 
     .wrapper {
         background-color:black;
-        width: 1200px;
+        width: 1180px;
         height: 140px;
-        margin: auto;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
     
     nav li {
-        display: inline;
         text-decoration: none;
+        display:inline;
     }
     
     .home {
@@ -312,6 +313,20 @@ footer {
     }
 
     /*Set text, picture, button layout. Move the picture to the left.*/
+    .banner {
+        background-image: url("../images/main-banner.jpg");
+        background-size:100% 15 0%;
+        padding: 50px;
+        color: white;
+        width: 1100px;
+    }
+
+    .star {
+        padding: 10px;
+        width: 1000px;
+        height: 750px;
+    }
+
     .second img {
         float: left;
         padding-right: 10px;
@@ -321,6 +336,7 @@ footer {
     .second {
         padding-left: 80px;
         padding-right: 80px; 
+        height: 150px;
     }
 
     .second h2 {
@@ -376,6 +392,10 @@ footer {
         "video video web web print print"
     }
 
+    .h2 {
+        margin-left: 500;
+
+    } 
 
     .digital img {
         width: 450px;
@@ -425,7 +445,7 @@ footer {
         "bo bobo"
     }
 
-    .john img {
+    .cat {
         grid-area: joh;
     }
 
@@ -433,7 +453,7 @@ footer {
         grid-area: jo;
     }
 
-    .bob img {
+    .dog {
         grid-area: bobo;
     }
 
