@@ -264,24 +264,15 @@ footer {
         height: 80%;
     }
 
-    .banner {
-        background-image: url("../images/main-banner.jpg");
-        background-size:auto;
-        width: 1200px;
-        height: 780px;
-    }
-
     .wrapper {
         background-color:black;
-        width: 1180px;
-        height: 140px;
-        padding: 10px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 200px);
+        grid-gap: 5px;
+        grid-auto-rows: 50px;
     }
     
-    nav li {
+    .navigation {
         text-decoration: none;
         display:inline;
     }
@@ -310,6 +301,13 @@ footer {
     .contact {
         color: #c78b07;
         text-decoration: none;
+    }
+
+    .banner {
+        background-image: url("../images/main-banner.jpg");
+        background-size:auto;
+        width: 1200px;
+        height: 780px;
     }
 
     /*Set text, picture, button layout. Move the picture to the left.*/
@@ -447,36 +445,59 @@ footer {
 
     .cat {
         grid-area: joh;
+        width: 1000px;
     }
 
     .jo {
         grid-area: jo;
+        background-color: #ffe6ac;
     }
 
     .dog {
+        width: 400px;
         grid-area: bobo;
     }
 
     .bo {
         grid-area: bo;
+        background-color: #ffe6ac;
     }
 
     /*Use CSS Flexbox to set the arrangement position and order*/
     .us {
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas:
+        "fr ma"
+        "ho ho"
     }
 
-    .us div:nth-child(hours)
-    .us div:nth-child(map) {
-        flex-basis: 50px;
+    .from {
+        grid-area: fr;
     }
 
-    .us div:nth-child(3) {
-        flex-basis: 100%;
+    .hours {
+        grid-area: ho;
+        width: 100%;
     }
 
+    .map {
+        grid-area: ma;
+    }
+
+    td, th {
+        border: 2px solid black;
+        padding: 10px;
+        width: 1100px;
+    }
+
+    .us {
+        bottom: 1000px;
+    }
+
+    }
     footer {
         padding-left: 100px;
     }
-}   
+   
